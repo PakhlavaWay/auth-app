@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+*, 
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+}
+
+.App {
+  text-align: center;
+}
+
+nav a.active {
+  text-decoration: none;
+  border: 1px solid #f6f6f6;
+  background-color: #f6f6f6;
+  border-radius: 6px 6px 0 0;
+}
+
+.signIn, .signUp {
+  margin-top: 50px!important;
+  display: flex;
+  /* column-gap: 70px; */
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  flex: auto;
+}
+
+.signIn a, .signUp a {
+  text-decoration: none;
+  width: 50%;
+  padding: 20px 0;
+  /* background-color: #f6f6f6; */
+}
+
+.signWith {
+  border: 1px solid pink;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  width: 47%;
+  font-size: 0.9rem;
+  min-height: fit-content;
+  padding: 10px 3px;
+  border-radius: 6px;
+}
